@@ -16,7 +16,7 @@ function Nav() {
                     <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#work">Work</a>
+                    <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
                     <a href="#resume">Resume</a>
