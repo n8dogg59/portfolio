@@ -362,6 +362,12 @@ footer a:visited {
   margin-left: var(--spacing-one);
 }
 
+.all-page-container {
+  height: 100%;
+  max-height: 500px;
+  overflow: auto;
+}
+
 /* contact me styles end */
 
 /* media query for smaller screens */

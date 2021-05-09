@@ -3,8 +3,8 @@ import Project from '../Project';
 
 function Portfolio() {
   return (
-    <section class="working">
-        <div class="section-title">
+    <section className="working">
+        <div className="section-title">
             <h2><span id="portfolio"></span>
                 Projects
             </h2>

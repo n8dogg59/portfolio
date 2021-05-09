@@ -1,8 +1,17 @@
 import React from 'react';
 import signature from "../../assets/signature4.png";
 
-function Nav() {
-
+function Nav(props) {
+    const {
+        setPortfolioSelected,
+        portfolioSelected,
+        contactSelected,
+        setContactSelected,
+        setAboutSelected,
+        aboutSelected,
+        setResumeSelected,
+        resumeSelected,
+      } = props;
   return (
     <header>
         <h1 id="top">
@@ -13,16 +22,16 @@ function Nav() {
         <nav className="menu">
             <ul>
                 <li>
-                    <a href="#about-me">About Me</a>
+                    <a href="#about-me" onClick={() => {setContactSelected(false); setPortfolioSelected(false); setResumeSelected(false)}}>About Me</a>
                 </li>
                 <li>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio" onClick={() => {setPortfolioSelected(true); setContactSelected(false); setResumeSelected(false)}}>Portfolio</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="#resume" onClick={() => {setResumeSelected(true); setContactSelected(false); setPortfolioSelected(false)}}>Resume</a>
                 </li>
                 <li>
-                    <a href="#contact-me">Contact Me</a>
+                    <a href="#contact-me" onClick={() => setContactSelected(true)}>Contact Me</a>
                 </li>
             </ul>
         </nav>  
