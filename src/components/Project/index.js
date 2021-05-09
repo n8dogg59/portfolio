@@ -7,6 +7,7 @@ import quizPhoto from "../../assets/project-images/quiz.jpg";
 import noteTakerPhoto from "../../assets/project-images/note-taker-screenshot.jpg";
 
 
+
 const photos = [
     {
       photo: recessPhoto,
@@ -57,12 +58,19 @@ function Project() {
   return (
     <div className="flex-row">
         {photos.map((image,i) => (
-            <img
+            <div>
+                <img
             src={image.photo}
             alt={image.name}
             className="img-thumbnail mx-1"
             key={image.name}
             />
+            <div className="links">
+            <a href={image.github} className="link-item">GitHub Repository</a>
+            <a href={image.deployed}>Depoyed Application</a>
+            </div>
+            </div>
+            
         ))}
         
     </div>
