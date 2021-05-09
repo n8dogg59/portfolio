@@ -52,11 +52,11 @@ function ContactForm() {
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
+
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+
                 <button data-testid="button" type="submit">Submit</button>
             </form>
             <p>

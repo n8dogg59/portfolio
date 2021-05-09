@@ -372,6 +372,28 @@ footer a:visited {
   margin-bottom: calc(2.5rem);
 }
 
+input {
+	font-size: 1rem;
+	padding: 0.25rem;
+	border: 1px solid black;
+	outline: none;
+	border-radius: 3px;
+	transition: box-shadow 0.2s;
+	width: 600px;
+}
+
+input:focus {
+	border: 1px solid darkslategrey;
+	box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
 /* contact me styles end */
 
 /* media query for smaller screens */

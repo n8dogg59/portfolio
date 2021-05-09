@@ -13,9 +13,9 @@ function Resume(props) {
     return (
         <div>
             <div className="bottom-spacing">
-                <button href={pdf} download>
+                <a href={pdf} download>
                     <h4>Download my Resume</h4>
-                </button>
+                </a>
             </div>
             <Document
                 file={pdf}
