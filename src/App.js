@@ -6,6 +6,8 @@ import ContactForm from "./components/Contact";
 import Resume from "./components/Resume";
 import resumePDF from "./assets/project-images/resume-schroeder.pdf";
 
+
+
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [portfolioSelected, setPortfolioSelected] = useState(false);

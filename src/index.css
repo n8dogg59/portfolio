@@ -368,6 +368,10 @@ footer a:visited {
   overflow: auto;
 }
 
+.button-spacing {
+  margin-bottom: calc(2.5rem);
+}
+
 /* contact me styles end */
 
 /* media query for smaller screens */
