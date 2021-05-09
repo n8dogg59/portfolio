@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
 
+// ConctactForm currently doesn't actually do anything but I'll add that functionality later
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 

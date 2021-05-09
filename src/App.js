@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 import Resume from "./components/Resume";
 import resumePDF from "./assets/project-images/resume-schroeder.pdf";
+import Footer from "./components/Footer";
 
 
 
@@ -43,6 +44,7 @@ function App() {
         ) 
         }
       </main>
+      <Footer />
     </div>
   );
 }

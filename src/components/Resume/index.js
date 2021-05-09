@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
 import pdf from "../../assets/project-images/resume-schroeder.pdf"
+
+// A pdf of the resume shows up along with a link where the user can download that pdf
 function Resume(props) {
     const [numPages, setNumPages] = useState(null);
 

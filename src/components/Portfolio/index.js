@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../Project';
 
+// All the projects that are displayed here will come in from the Project component
 function Portfolio() {
   return (
     <section className="working">

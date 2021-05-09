@@ -54,6 +54,7 @@ const photos = [
     }
   ];
 
+// Uses .map to display a picture of six projects and also the links for github and deployment
 function Project() {
   return (
     <div className="flex-row">

@@ -1,6 +1,7 @@
 import React from 'react';
 import profilePic from "../../assets/profile-pic.jpg";
 
+// This about page will show up as the first page when page is loaded
 function About() {
   return (
     <section>
